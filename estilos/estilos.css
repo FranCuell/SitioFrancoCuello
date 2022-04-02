@@ -1,0 +1,306 @@
+/* diseño del index */
+* {margin: 0;
+padding: 0;}
+html {font-size: 62.5% ;}
+/* diseño del body */
+.diseñoBody 
+body 
+
+nav {background-color: darkcyan;}
+/* diseño del navegador */
+a {text-decoration: none;}
+.imagenLogo {width: 4cm; margin: 25px 10px 10px 10px 55px;
+padding: 25px 20px 25px 50px;}
+
+ul{list-style-type: none;
+    padding: 10px 15px 15px 20px;
+     margin: 5px 30px 30px 30px;
+     border: 3px double black;
+     background-color:rgba(190, 120, 99, 0.993);
+    text-decoration: none;
+     display: inline-block;display: inline;
+     justify-content: center;
+    }
+.menu li { display: inline-block;
+     position: relative; 
+     font-size: 20px;
+      padding: 0 10px 5px 5px;
+text-decoration: none;}
+.menu li:hover ul {display: block;}
+.sub_menu {display: none; 
+    position: absolute;}
+.sub_menu li {display: block;
+     background-color: rgb(238, 150, 118); }
+li {text-decoration: none;}
+
+/* diseño main */
+main    {background-image:url(../imagenes/tex2res1.png);
+            background-size: 25rem;}
+h1 {font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    text-align: center;
+    margin: 15px 10px 10px 15px;
+
+ ;}
+ h2 {font-size: 23px;}
+ .h2_IndexPrimero {background-color: darkgrey;
+                    text-align: center;}
+
+ .parrafo_Principal_Index {
+     font-size: 21px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+    order: -3;
+    background-image:radial-gradient(rgb(130, 130, 223),white)
+;}
+.primeraImagenIndex {width: 10cm;
+     margin: 10px 10px 10px 15px;
+    padding: 5px 5px 10px 5px ;
+order: -2;}
+.segundaImagenIndex {width: 10cm;
+margin: 10px 10px 10px 15px;
+padding: 5px 5px 10px 5px;}
+
+.parrafoSecundarioIndex {font-size: 21px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align:center;
+padding: 55px 5px 10px 5px;
+order:-1;
+}
+.comoAlquilo {font-size: 43px;
+color: rgb(1, 10, 19);
+text-align: center;
+margin: 5 5 5 5;
+padding: 5 5 5 5;}
+
+.sectionDos {border: 5px double;
+            margin: 10px 15px 10px 10px;
+            padding: 10px;}
+
+.sectionTres {border: 5px double;
+            margin: 10px;
+            padding: 10px;}
+
+.tituloCompromiso {font-size: 43px;
+color: black;
+text-align: center;}
+
+.comoAlquiloParrafo {font-size: 15px;
+color: hsl(1, 10, 19);
+text-align: center;
+margin: 10 10 10 10;
+padding: 5 5 10 10;}
+
+.parrafoCompromiso {font-size: 15px;
+color: black;
+text-align: center;}
+
+
+footer{font-size: 175%
+     ; background-color: rgb(19, 12, 12);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+}
+
+/*aplicando Flexboox y grid Index */
+.cajaContenedoraPadre {display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: stretch;
+} 
+
+.padreFlex {
+            display:flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;}
+
+
+.diseñoBody {display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(4 1fr);
+    grid-template-areas:
+    "header header header header"
+    "cajaContenedoraPadre cajaContenedoraPadre cajaContenedoraPadre cajaContenedoraPadre"
+    "sectionDos sectionDos sectionTres sectionTres"
+    "footer footer footer footer"}
+
+.header {grid-area: header;}
+.cajaContenedoraPadre {grid-area: cajaContenedoraPadre;}
+.sectionDos {grid-area: sectionDos;}
+.sectionTres {grid-area: sectionTres;}
+.footer{grid-area: footer;}
+
+/* Diseño del footer */
+
+.parrafoFooter{text-align: center;
+                color: antiquewhite;
+               font-family: Arial, Helvetica, sans-serif;}
+
+.tituloFooter {color: aliceblue;
+                padding: 10px 5px 5px 10px;}   
+.wspFooter {color: aliceblue
+            ; padding: 10px 5px 5px 10px;}                            
+.redesSocialesFooter {text-decoration: none; 
+                        border: none;
+    background-color: rgb(240, 229, 229) ;}
+.ulFooter {border: none;
+            padding: 1px;}    
+
+/* header */
+header {background-image: radial-gradient(white, rgb(48, 143, 187));}
+
+/* página productos*/
+
+.tituloPagProductos {font-size: 22px;}
+.parrafoPagProductos {font-size: 20px;}
+
+.imagenMicky {width: 10cm;}
+.imagenAcuatico {width: 10cm;}
+
+/* responsive*/
+@media screen and (max-width: 756px) {
+            nav {
+                background-color: rgb(114, 114, 211);}
+            ul { border: 1px ridge;
+                background-color: rgb(199, 126, 118);
+                color: rgba(10, 9, 9, 0.418);}
+            .h2_IndexPrimero {
+                background-color: gainsboro;
+                color: rgb(8, 8, 19);
+            }
+            .diseñoBody {display:
+                 grid;
+                grid-template-columns: repeat(2 1fr);}
+
+
+}
+
+@media screen and (max-width: 400px) {
+            nav {background-color: rgb(178, 158, 209);}
+            ul {display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: orange;
+                text-align: center;}
+            main {justify-content: center;}
+            .parrafo_Principal_Index
+             {font-family:
+                 Arial, Helvetica, sans-serif;}
+            .diseñoMain 
+                    {display: grid;
+                    grid-template-columns: repeat(1 1fr);
+                    grid-template-rows: repeat(7 1fr) ;
+                    grid-template-areas: 
+                    "header"
+                    "primeraImagenIndex"
+                    "segundaImagenIndex"
+                    "parrafoSecundarioIndex"
+                    "sectionDos"
+                    "sectionTres"
+                    "footer";
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    display: flex;
+                    flex-direction: column;} 
+            .header {
+                grid-area: header;
+            }        
+            .primeraImagenIndex {
+                    grid-area: primeraImagenIndex;
+            }            
+            .segundaImagenIndex {
+                    grid-area: segundaImagenIndex;
+            }   
+            .parrafoSecundarioIndex {
+                    grid-area: parrafoSecundariosIndex;
+            }
+            .sectionDos {
+                    grid-area: sectionDos;
+            }
+            .sectionTres {
+                    grid-area: sectionTres;
+            }
+            .footer {
+                    grid-area: footer;
+            }
+            .padreFlex {
+                    flex-direction: column;
+                    flex-wrap: wrap;
+            }
+
+            .CajaContenedoraSn{
+            display: flex; 
+            flex-direction: column;
+            flex-wrap: nowrap;
+            display: grid;
+            grid-template-columns: repeat(1 1fr);
+            grid-template-rows: repeat(2 1fr);
+}
+
+
+
+/*transformaciones*/
+@keyframes  {
+    0% {
+        background-color: white;
+    } 
+    40% {background-color: rgba(255, 255, 255, 0.726);}
+    70% {background-color: rgba(233, 228, 162, 0.61);}
+    100% {background-color: rgb(208, 233, 119);}
+
+}
+
+
+/* PAGINA SOBRE NOSOTROS */
+.tituloSobreNosotros {
+        font-size: 35px;
+        color: rgb(4, 12, 4);
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+}
+
+.tituloElCreador {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: double;
+}
+
+.parrafosSobreNosotros {
+            font-size: 18px;
+            text-align: center;
+}
+
+.tituloQueOfrecemos {
+    text-align: center;
+}
+
+.CajaContenedoraSn {
+        display: grid;
+        grid-template-columns: repeat(2 1fr) ;
+        grid-template-rows: repeat(1 1fr);
+        grid-template-areas:
+         "PrimeraSeection"  "SegundaSection" ;
+         display: flex;
+         flex-wrap:nowrap;
+         flex-direction: row;
+         justify-content: center;
+}
+
+.PrimeraSection {
+    grid-area: primeraSection;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.SegundaSection {
+        grid-area: SegundaSection;
+        margin: 10px;
+        padding: 10px;
+}

@@ -41,6 +41,7 @@ h1 {font-size: 35px;
     font-style: oblique;
     text-align: center;
     margin: 15px 10px 10px 15px;
+    
 
 
  ;}
@@ -78,10 +79,7 @@ padding: 5 5 5 5;}
 .sectionDos {border: 5px double;
             margin: 10px 15px 10px 10px;
             padding: 10px;
-            animation-name: fondoColor;
-            animation-duration: 5s;
-            animation-timing-function: ease-in;
-            animation-iteration-count: infinite;}
+            }
 
 .sectionTres {border: 5px double;
             margin: 10px;
@@ -160,7 +158,7 @@ header {background-image: radial-gradient(white, rgb(48, 143, 187));}
 /* página productos*/
 
 .tituloPagProductos {font-size: 22px;}
-.parrafoPagProductos {font-size: 20px;}
+.parrafoPagProductos {font-size: 380px;}
 
 .imagenMicky {width: 10cm;}
 .imagenAcuatico {width: 10cm;}
@@ -259,10 +257,17 @@ header {background-image: radial-gradient(white, rgb(48, 143, 187));}
 
 }
 
+.tituloCompromiso {
+    animation-name: fondoColor;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
 
 /* PAGINA SOBRE NOSOTROS */
 .tituloSobreNosotros {
-        font-size: 35px;
+        font-size: 25px;
         color: rgb(4, 12, 4);
         padding: 10px;
         margin: 10px;
@@ -274,10 +279,11 @@ header {background-image: radial-gradient(white, rgb(48, 143, 187));}
         margin: 10px;
         text-align: center;
         text-decoration: double;
+        font-size: 25px;
 }
 
 .parrafosSobreNosotros {
-            font-size: 35px;
+            font-size: 20px;
             text-align: center;
 }
 
@@ -301,6 +307,7 @@ header {background-image: radial-gradient(white, rgb(48, 143, 187));}
     grid-area: primeraSection;
     margin: 10px;
     padding: 10px;
+
     text-align: center;
     
 }
@@ -309,5 +316,6 @@ header {background-image: radial-gradient(white, rgb(48, 143, 187));}
         grid-area: SegundaSection;
         margin: 10px;
         padding: 10px;
+        font-size: 45px;
         
 }

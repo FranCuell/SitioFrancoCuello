@@ -1,69 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sobre nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+
+
     <link rel="stylesheet" href="../estilos/estilos.css">
 </head>
+
 <body>
     <header class="header">
-        <nav>   
-      
-            <img  src="../imagenes/logo.jpeg" alt="LOGOINFLABESSIMON" class="imagenLogo">
-            <!-- es la navegaciíon-->
-            <ul class="menu">
-              <li><a href="../index.html">INICIO</a> </li>
-                 <li><a href="productos.html">PRODUCTOS</a> </li>
-                    <ul class="sub_menu"> 
-                         <li><a href="castillosaquaticos">castillosaquaticos</a> </li>
-                         <li><a href="juegosdemesa">juegosdemesa</a></li>
-                     </ul>
-     
-             <li> <a href="sobrenosotros.html">SOBRE NOSOTROS</a></li>
-             <li><a href="eventos.html">EVENTOS</a> </li>
-             <li><a href="contactos.html">CONTACTO</a></li>
-             </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobrenosotros.html">SOBRENOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="contactos.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        
-    </header>
-    <main>
-        <article>
-                <section>
-                 <h1>CASTILLOS SIMÓN</h1>
-                    <h2 class="tituloSobreNosotros">SOBRE NOSOTROS</h2>
-                     <p class="parrafosSobreNosotros"> Somos una empresa familiar que nacio en el año 2022, con el objeto de ofrecer un servicio de diversion para nuestros clientes.</p>
-                </section>
-        </article>  
-        <article class="CajaContenedoraSn">   
-                <section class="PrimeraSection">
-                        <h2 class="tituloElCreador">EL CREADOR</h2>
-                        <p class="parrafosSobreNosotros">El es Maxi, el padre de Inflabes Simón.</p>
-                        <p class="parrafosSobreNosotros"> A partir de su voluntad emprendedora a convertido a inflabes Simón como una opción seria y valorada por sus clientes. </p>
-                        <p class="parrafosSobreNosotros"> Desde el inicio hasta hoy se ve una evolución en el proyecto
-                             buscando la comodidad para el cliente y dandole variedad en la elección de los productos disponibles </p>
 
-                </section>
-          
-                 <section class="SegundaSection">
-                      <h2 class="tituloQueOfrecemos" >¿QUÉ OFRECEMOS?</h2>
-                         <p class="parrafosSobreNosotros" > Inflables Simón te ofrece Castillos clasicos y tambien acuaticos para que disfrutes los días de calor </p>
-                         <p class="parrafosSobreNosotros">Ademas contamos con metegol, tejo, yenga gigante y juegos blandos</p>
-                </section>     
+    </header>
+    <main class="container-fluid">
+        <article class="row">
+            <section>
+                <h1>CASTILLOS SIMÓN</h1>
+                <h2 class="tituloSobreNosotros">SOBRE NOSOTROS</h2>
+                <p class="parrafosSobreNosotros"> Somos una empresa familiar que nacio en el año 2022, con el objeto de
+                    ofrecer un servicio de diversion para nuestros clientes.</p>
+            </section>
+        </article>
+        <article class="row">
+            <section class="col-md-6 col-sm-12">
+                <h2 class="tituloElCreador">EL CREADOR</h2>
+                <p class="lead">El es Maxi, el padre de Inflabes Simón.</p>
+                <p class="parrafosSobreNosotros"> A partir de su voluntad emprendedora a convertido a inflabes Simón
+                    como una opción seria y valorada por sus clientes. </p>
+                <p class="parrafosSobreNosotros"> Desde el inicio hasta hoy se ve una evolución en el proyecto
+                    buscando la comodidad para el cliente y dandole variedad en la elección de los productos disponibles
+                </p>
+
+            </section>
+
+            <section class="col-md-6 col-sm-12">
+                <h2 class="tituloQueOfrecemos">¿QUÉ OFRECEMOS?</h2>
+                <p class="parrafosSobreNosotros"> Inflables Simón te ofrece Castillos clasicos y tambien acuaticos para
+                    que disfrutes los días de calor </p>
+                <p class="parrafosSobreNosotros">Ademas contamos con metegol, tejo, yenga gigante y juegos blandos</p>
+            </section>
     </main>
     <footer>
         <h2>Castillos Simon </h2>
         <H2>Wsp 35135678 </H2>
         <h3>Redes Sociales</h3>
         <ul>
-            <li><a href="www.facebook.com">Facebook</a>  </li>
+            <li><a href="www.facebook.com">Facebook</a> </li>
             <li><a href="www.instagram">instagram</a> </li>
         </ul>
 
         <p>Este sitio es propiedad de Franweb </p>
-        
+
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
 
 </body>
+
 </html>

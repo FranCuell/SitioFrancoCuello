@@ -74,7 +74,15 @@ order:-1;
 color: rgb(1, 10, 19);
 text-align: center;
 margin: 5 5 5 5;
-padding: 5 5 5 5;}
+padding: 5 5 5 5;
+ animation-name: FondoColor;
+ animation-name: fondoColor;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+      animation-delay: 1s;
+
+
+}
 
 .sectionDos {border: 5px double;
             margin: 10px 15px 10px 10px;
@@ -158,7 +166,7 @@ header {background-image: radial-gradient(white, rgb(48, 143, 187));}
 /* página productos*/
 
 .tituloPagProductos {font-size: 22px;}
-.parrafoPagProductos {font-size: 380px;}
+.parrafoPagProductos {font-size: 20px;}
 
 .imagenMicky {width: 10cm;}
 .imagenAcuatico {width: 10cm;}
@@ -243,18 +251,6 @@ header {background-image: radial-gradient(white, rgb(48, 143, 187));}
             grid-template-columns: repeat(1 1fr);
             grid-template-rows: repeat(2 1fr);
 }
-
-
-
-/*transformaciones*/
-@keyframes fondoColor  {
-    0% {
-        background-color: white;}
-    
-    40% {background-color: rgba(255, 255, 255, 0.726); }
-    70% {background-color: rgba(233, 228, 162, 0.61); }
-    100% {background-color: rgb(208, 233, 119);}
-
 }
 
 .tituloCompromiso {
@@ -266,56 +262,85 @@ header {background-image: radial-gradient(white, rgb(48, 143, 187));}
 
 
 /* PAGINA SOBRE NOSOTROS */
+
+
 .tituloSobreNosotros {
-        font-size: 25px;
-        color: rgb(4, 12, 4);
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
+    font-size: 25px;
+    color: rgb(4, 12, 4);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 .tituloElCreador {
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
-        text-decoration: double;
-        font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: double;
+    font-size: 25px;
 }
 
 .parrafosSobreNosotros {
-            font-size: 20px;
-            text-align: center;
+        font-size: 20px;
+        text-align: center;
 }
 
 .tituloQueOfrecemos {
-    text-align: center;
+text-align: center;
 }
 
 .CajaContenedoraSn {
-        display: grid;
-        grid-template-columns: repeat(2 1fr) ;
-        grid-template-rows: repeat(1 1fr);
-        grid-template-areas:
-         "PrimeraSeection"  "SegundaSection" ;
-         display: flex;
-         flex-wrap:nowrap;
-         flex-direction: row;
-         justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2 1fr) ;
+    grid-template-rows: repeat(1 1fr);
+    grid-template-areas:
+     "PrimeraSeection"  "SegundaSection" ;
+     display: flex;
+     flex-wrap:nowrap;
+     flex-direction: row;
+     justify-content: center;
 }
 
 .PrimeraSection {
-    grid-area: primeraSection;
-    margin: 10px;
-    padding: 10px;
+grid-area: primeraSection;
+margin: 10px;
+padding: 10px;
 
-    text-align: center;
-    
+text-align: center;
+
 }
 
 .SegundaSection {
-        grid-area: SegundaSection;
-        margin: 10px;
-        padding: 10px;
-        font-size: 45px;
-        
-}
+    grid-area: SegundaSection;
+    margin: 10px;
+    padding: 10px;
+    font-size: 45px;
+    animation-name: fondoColor;
+      }
+
+      /*transformaciones*/
+@keyframes fondoColor  {
+    0% {
+        background-color: white;}
+    
+    40% {background-color: rgba(221, 129, 23, 0.726); }
+    70% {background-color: rgba(45, 97, 238, 0.61); }
+    100% {background-color: rgb(211, 17, 17); }
+
+  }
+
+  .SegundaSection {
+      animation-name: fondoColor;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+      animation-delay: 1s;
+  }
+
+  .PrimeraSection {
+
+      animation-name: fondoColor;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+      animation-delay: 1s;
+
+  }

@@ -344,3 +344,12 @@ text-align: center;
       animation-delay: 1s;
 
   }
+
+  /* Diseño Pag productos */
+
+  .cajaContenedoraProductos {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat();
+  }

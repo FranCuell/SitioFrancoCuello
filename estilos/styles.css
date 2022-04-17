@@ -42,3 +42,35 @@ p {
 
 footer {
   background-color: #cc9c9c; }
+
+body {
+  background-color: orange; }
+
+/* mapas*/
+.inicio {
+  background-color: blue; }
+
+.contacto {
+  background-color: green; }
+
+.sobrenosotros {
+  background-color: yellow; }
+
+.productos {
+  background-color: purple; }
+
+.eventos {
+  background-color: red; }
+
+/*map get */
+.parrafo_Principal_Index {
+  background-color: #3673d9; }
+
+img {
+  height: 300px;
+  width: 400px; }
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }

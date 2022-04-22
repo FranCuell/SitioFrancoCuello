@@ -15,8 +15,7 @@ padding: 25px 20px 25px 50px;}
 ul{list-style-type: none;
     padding: 10px 15px 15px 20px;
      margin: 5px 30px 30px 30px;
-     border: 3px double black;
-     background-color:rgba(190, 120, 99, 0.993);
+      background-color:rgba(190, 120, 99, 0.993);
     text-decoration: none;
      display: inline-block;display: inline;
      justify-content: center;
@@ -356,5 +355,5 @@ text-align: center;
   }
 
   .footer {
-    background-image: radial-gradient(rgb(113, 174, 224) rgb(102, 35, 83)
-  }
+    background-image: radial-gradient(rgb(113, 174, 224) rgb(102, 35, 83))  }
+  

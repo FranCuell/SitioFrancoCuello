@@ -27,21 +27,25 @@
 <body class="diseñoBody">
     <!-- cuerpo de nuestro sitio -->
     <header class="header">
-        <nav>
-            <img src="imagenes/My project.png" alt="logocastillosimon" class="imagenLogo">
-            <i class="fa-thin fa-castle"></i>
-            <!-- es la navegaciíon-->
-            <ul class="menu">
-                <li class="inicio"><a href="../Sitio web Franco Cuello/index.html">INICIO</a></li>
-                <li class="productos"><a href="paginas/productos.html">PRODUCTOS</a></li>
-
-                <li class="sobrenosotros"> <a href="paginas/sobrenosotros.html">SOBRE NOSOTROS</a></li>
-                <li class="eventos"><a href="paginas/eventos.html">EVENTOS</a> </li>
-                <li class="contacto"><a href="paginas/contactos.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <img src="imagenes/project.png" class="navbar-brand" href="#">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+              <a class="nav-link" href="paginas/productos.html">PRODUCTOS</a>
+              <a class="nav-link" href="paginas/sobrenosotros.html">NOSOTROS</a>
+              <a class="nav-link" href="paginas/eventos.html">EVENTOS</a>
+              <a class="nav-link" href="paginas/contactos.html">CONTACTO</a>
+             </div>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main class="diseñoMain">
+    <main>
         <article>
             <section class=".diseñoSection">
                 <h1 class="animate__animated animate__rotateIn "> Inflables Simón </h1>
@@ -52,9 +56,9 @@
 
                 <p class="parrafo_Principal_Index"> En Castillos Simón te ofrecemos una gran variedad de castillos para
                     que puedas festejar tu cumpleaños con nosotros y que tu día sea inolvidable.
-                    Tenemos castillos y juegos como metegol, tejo y otros para que disfrutes tu día al maximo y explotes
+                    Tenemos <span> castillos y juegos como metegol, tejo y otros</span> para que disfrutes tu día al maximo y explotes
                     de diversión y alegría.
-                    En el sector ¨productos¨vas a poder visualizar las distintas alternativas que ofrecemos y hagan de
+                    En el sector <span>¨productos¨ </span> a poder visualizar las distintas alternativas que ofrecemos y hagan de
                     tu cumple un día inolvidable.</p>
             </section>
             <!--etiquetas de bloque, ocupan todo el ancho disponible y no permiten que otro elemento este al lado-->
@@ -65,10 +69,13 @@
                         <img src="imagenes/WhatsApp Image 2022-02-28 at 11.39.34 (1).jpeg" class="d-block w-100" alt="CASTILLO CLASICO">
                       </div>
                       <div class="carousel-item">
-                        <img src="imagenes/fondoheader.jpeg" class="d-block w-100" alt="Metegol">
+                        <img src="imagenes/yenga.jpg" class="d-block w-100" alt="Imagen Yenga">
                       </div>
                       <div class="carousel-item">
-                        <img src="imagenes/WhatsApp Image 2022-04-21 at 17.11.05.jpeg" class="d-block w-100" alt="METEGOL">
+                        <img src="imagenes/plazablanda.jpg" class="d-block w-100" alt="Imagen Plaza Blanda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/WhatsApp Image 2022-05-08 at 09.52.49.jpeg" class="d-block w-100" alt="METEGOL">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -105,8 +112,8 @@
     </main>
 
     <footer class="footer">
-        <h2 class="tituloFooter">Castillos Simon </H2>
-        <H2 class="wspFooter">Wsp 351 574-5814 </H2>
+        <h2 class="tituloFooter">Inflables Simón </h2>
+        <h2 class="wspFooter">Wsp 351 574-5814 </h2>
         <h3 class="redesSocialesFooter">Redes Sociales</h3>
         <ul class="ulFooter">
             <li><a class="redesSocialesFacebook" href="www.facebook.com/alquilerinflablessimon"></a> </a><i class="fa-brands fa-facebook"></i> </li>

@@ -18,55 +18,59 @@
     <link rel="stylesheet" href="../estilos/styles.css">
 </head>
 
-<body>
+<body class="bodySn">
     <header class="header">
-        <nav>
-
-            <img src="../imagenes/My project.png" alt="LOGOINFLABESSIMON" class="imagenLogo">
-            <!-- es la navegaciíon-->
-            <ul class="menu">
-                <li><a href="../index.html">INICIO</a> </li>
-                <li><a href="productos.html">PRODUCTOS</a> </li>
-
-
-                <li> <a href="sobrenosotros.html">SOBRE NOSOTROS</a></li>
-                <li><a href="eventos.html">EVENTOS</a> </li>
-                <li><a href="contactos.html">CONTACTO</a></li>
-            </ul>
-        </nav>
-
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <img src="../imagenes/project.png" class="navbar-brand" href="#">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              <a class="nav-link" href="productos.html">PRODUCTOS</a>
+              <a class="nav-link" href="sobrenosotros.html">NOSOTROS</a>
+              <a class="nav-link" href="eventos.html">EVENTOS</a>
+              <a class="nav-link" href="contactos.html">CONTACTO</a>
+             </div>
+          </div>
+        </div>
+      </nav>
+          </nav>
     </header>
-    <main class="container-fluid">
-        <article class="row">
+    <main>
+        <article>
             <section>
-                <h1>CASTILLOS SIMÓN</h1>
+                <h1>INFLABLES SIMÓN</h1>
                 <h2 class="tituloSobreNosotros">SOBRE NOSOTROS</h2>
-                <p class="parrafosSobreNosotros"> Somos una empresa familiar que nacio en el año 2022, con el objeto de
-                    ofrecer un servicio de diversion para nuestros clientes.</p>
+                <p class="parrafosSobreNosotros"> Somos un emprendimiento familiar que nacio en el año <span> 2022 </span>, con el objeto de
+                    ofrecer un servicio de <span>diversión</span> para nuestros clientes.</p>
             </section>
         </article>
-        <article class="row">
-            <section class="col-md-6">
+        <article class="padreFlexSn">
+            <div class="divElCreador">
                 <h2 class="tituloElCreador">EL CREADOR</h2>
-                <p class="parrafosSobreNosotros">El es Maxi, el padre de Inflabes Simón.</p>
-                <p class="parrafosSobreNosotros"> A partir de su voluntad emprendedora a convertido a inflabes Simón
+                <p class="parrafoElCreador">El es Maxi, el padre de Inflabes Simón.</p>
+                <p class="parrafoElCreador"> A partir de su <span>voluntad emprendedora</span> a convertido a inflabes Simón
                     como una opción seria y valorada por sus clientes. </p>
-                <p class="parrafosSobreNosotros"> Desde el inicio hasta hoy se ve una evolución en el proyecto
-                    buscando la comodidad para el cliente y dandole variedad en la elección de los productos disponibles
+                <p class="parrafoElCreador"> Desde el inicio hasta hoy se ve una <span>evolución</span> en el proyecto
+                    buscando la comodidad para el cliente y dandole variedad en la elección de los productos disponibles.
                 </p>
 
-            </section>
+            </div>
 
-            <section class="col-md-6">
+            <div class="divQueOfrecemos">
                 <h2 class="tituloQueOfrecemos">¿QUÉ OFRECEMOS? </h2>
-                <p class="parrafosSobreNosotros"> Inflables Simón te ofrece Castillos clasicos y tambien acuaticos para
-                    que disfrutes los días de calor </p>
-                <p class="parrafosSobreNosotros">Ademas contamos con metegol, tejo, yenga gigante y juegos blandos</p>
-            </section>
+                <p class="parrafoQueOfrecemos"> Inflables Simón te ofrece Castillos clasicos y tambien acuaticos para
+                    que disfrutes los días de calor. </p>
+                <p class="parrafoQueOfrecemos">Ademas contamos con metegol, tejo, yenga gigante y juegos blandos.</p>
+            </div>
+        </article>    
     </main>
     <footer>
-        <h2>Castillos Simon </h2>
-        <H2>Wsp 35135678</H2>
+        <h2>Inflables Simon </h2>
+        <h2 class="Wsp">Wsp 351 574-5814 </h2>
         <h3>Redes Sociales</h3>
         <ul class="ulFooter">
             <li><a class="redesSocialesFooter" href="www.facebook.com"></a><i class="fa-brands fa-facebook"></i> </li>
